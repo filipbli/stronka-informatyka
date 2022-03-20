@@ -155,3 +155,80 @@ main h1
     text-align: center;
     
 }
+
+
+.content{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box{
+    border: 3px outset;
+    height: 40em;
+    padding: 1em;
+    margin-top: 12em;
+    width: 50em;
+}
+
+.box:first-child{
+    margin-top: 3em;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 0em;
+    padding: 0em;
+}
+
+.row_div{
+    padding: 0em;
+    margin: 0em;
+    width: 60%;
+}
+
+.row_div:first-child{
+    width: 40%;
+}
+
+.zdjecie_gry{
+    height: 16em;
+    width: 16em;
+}
+
+.nazwa_gry{
+    font-size: 2.2em;
+    padding-top: 1em;
+}
+
+.typ_gry{
+    background-color: rgb(121, 20, 236);
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0.2em;
+    text-align: center;
+    width: 5em;
+}
+
+.platforma{
+    background-color: rgb(121, 20, 236);
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0.2em;
+    margin-top: 0.1em;
+    text-align: center;
+    width: 12em;
+}
+
+.typ_gry:hover, .platforma:hover{
+    opacity: 0.8;
+    cursor: default;
+}
+
+.tekst{
+    font-size: 1.5em;
+}
