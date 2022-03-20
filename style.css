@@ -1,0 +1,157 @@
+body{
+    background-image: url(https://www.patternpictures.com/wp-content/uploads/Kristal-subtle-glass-white-background-pattern-patternpictures-0220.png);
+    background-repeat: repeat;
+}
+#center
+{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top:20vh;
+    
+}
+#center h1
+{
+    color: rgb(121, 20, 236);
+    transition: all 1s;
+    font-weight: 700;
+    font-size: 60px;
+    
+}
+#center h1:hover
+{
+    transform: scale(1.2);
+    color: rgb(8, 202, 250);
+}
+aside
+{
+    width: 20vw;
+    position: absolute;
+    right: 0;
+    
+    border-top: none !important;
+    background-color: gray;
+    
+}
+nav ul
+{
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav li
+{
+    list-style-type: none;
+    border-bottom:1px solid rgb(14, 9, 9); 
+    padding-top: 15px;
+    transition: all 1s;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 1px dotted black;
+}
+nav li:first-child
+{
+    font-size: 25px;
+    
+}
+nav li:hover
+{
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    background-color: rgb(82, 79, 79);
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+main
+{
+    position: relative;
+    width: 80vw;
+    background-image: url(https://www.patternpictures.com/wp-content/uploads/Kristal-subtle-glass-white-background-pattern-patternpictures-0220.png);
+    background-repeat: repeat-y;
+    
+    
+}
+
+main h1
+{
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+  .obraz
+  {
+    transition: all .5s !important;
+  }
+  .obraz:hover
+  {
+    transform: scale(1.1) !important;
+  }
+  .obraz-text
+  {
+    transition: all .5s !important;
+  }
+  .obraz-text:hover
+  {
+    transform: scale(1.1) !important;
+    background-color: white;
+  }
+  footer h1
+  {
+      font-size: 30px;
+      text-align: center;
+  }
+  footer h2
+  {
+      font-size: 25px;
+      text-align: center;
+  }
+  footer h3
+  {
+     
+      text-align: center;
+  }
+  
+.artykul
+{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    
+}
