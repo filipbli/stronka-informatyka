@@ -196,7 +196,7 @@ main h1
 
 .zdjecie_gry{
     height: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .nazwa_gry{
@@ -250,6 +250,7 @@ main h1
     cursor: default;
 }
 
-.tekst{
-    font-size: 1.5em;
+.tekst p{
+    font-size: 1.1em;
+    padding: 0.3em;
 }
