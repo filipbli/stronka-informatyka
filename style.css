@@ -5,8 +5,7 @@ body{
 
 main{
     background-image: url("Sprinkle.svg");
-    position: relative;
-    width: 99vw;
+    width: 100%;
 }
 
 main h1{
